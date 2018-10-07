@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-ENV TAIGA_HOST=taiga.lan
+ENV TAIGA_HOST=taiga.lan SCHEME=http
 
 WORKDIR /srv/taiga
 
